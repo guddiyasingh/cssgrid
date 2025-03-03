@@ -10,14 +10,21 @@
     .container {
         border: 2px solid yellow;
         display: grid;
-        grid-template-columns: 120px 100px;
-        grid-template-rows: 100px 100px;
+        height: 100vh;
+        align-items: center;
+        justify-items: center;
+        /* grid-template-columns: 120px 100px;
+        grid-template-rows: 100px 100px; */
+        grid-template-columns: 1fr 1fr 1fr;
+        /* gap: 34px; */
+        row-gap: 10px;
+        column-gap: 44px;
     }
 
     .item {
         border: 2px solid red;
-        /* height: 55px;
-        width: 55px; */
+        height: 55px;
+        width: 55px;
 
     }
     .item-4{
